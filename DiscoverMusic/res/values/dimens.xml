@@ -1,0 +1,22 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="slidingmenu_offset">120dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+
+    <!-- FROM TANCEP APP -->
+    <dimen name="play_list_row_height">44dp</dimen>
+    <dimen name="play_list_row_width">75dp</dimen>
+
+    <!-- Video Description Page -->
+    <dimen name="video_height">220dp</dimen>
+    <dimen name="video_numbers_bar">50dp</dimen>
+    <dimen name="video_view_bar_margin">10dp</dimen>
+    <dimen name="video_view_top_bar_font_size">15sp</dimen>
+    <dimen name="video_view_description_font_size">12sp</dimen>
+    <dimen name="channel_name">25sp</dimen>
+
+</resources>

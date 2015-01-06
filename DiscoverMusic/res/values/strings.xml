@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">YoutubeExpose</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">Title of Song</string>
+    <string name="search_hint">SEARCH ANYTHING</string>
+
+    <string-array name="channel_name">
+        <item>Latest Songs (SWITCH TO POPULAR)</item>
+        <item> All Time Favourite</item>
+        <item> Songs plus</item>
+        <item> Bonus plus</item>
+    </string-array>
+    <string-array name="channel_username">
+        <item>tseries</item>
+        <item>filmigaane</item>
+        <item>tipsmusic</item>
+        <item>ShemarooEnt</item>
+    </string-array>
+    
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+    <string name="playerview_text">HERE GOES LYRICS ... \n.....\n.......\n may be like this</string>
+</resources>

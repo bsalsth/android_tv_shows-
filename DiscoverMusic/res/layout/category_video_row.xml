@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/video_view"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/video_view_bar_margin"
+        android:background="@color/video_descrption_video_numbers_bar_bg" >
+
+        <RelativeLayout
+            android:id="@+id/rela"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/img_thumm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:background="@drawable/srk"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/video_item_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@id/img_thumm"
+                android:layout_marginTop="-40dp"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:lines="2"
+                android:text="MYY NAME IS MEAB9O"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#00ff00" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/video_li2"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/video_numbers_bar"
+            android:layout_below="@+id/rela"
+            android:background="@color/video_descrption_video_numbers_bar_bg"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/video_numbers_bar" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/tv_duration"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Duration"
+                            android:textColor="@color/video_descrption_video_numbers_bar_titles_color" />
+
+                        <TextView
+                            android:id="@+id/tv_duration_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="10:00"
+                            android:textColor="@color/video_descrption_video_numbers_bar_color"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:src="@drawable/separator_video_numbers" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/tv_published"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Pulbished On"
+                            android:textColor="@color/video_descrption_video_numbers_bar_titles_color" />
+
+                        <TextView
+                            android:id="@+id/tv_published_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="21 Dec , 2014"
+                            android:textColor="@color/video_descrption_video_numbers_bar_color"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:src="@drawable/separator_video_numbers" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical"
+                        android:weightSum="2" >
+
+                        <TextView
+                            android:id="@+id/tv_views_count"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="Views"
+                            android:textColor="@color/video_descrption_video_numbers_bar_titles_color" />
+
+                        <TextView
+                            android:id="@+id/tv_views_count_value"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:text="20123"
+                            android:textColor="@color/video_descrption_video_numbers_bar_color"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    android:src="@drawable/separator_video_numbers" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="5" >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_centerInParent="true"
+                        android:orientation="vertical" >
+
+                        <ImageView
+                            android:id="@+id/addvideo"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:src="@drawable/addvideo" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

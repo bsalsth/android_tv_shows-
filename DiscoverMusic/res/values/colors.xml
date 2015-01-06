@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="main_bg">#ddd5ce</color>
+    <color name="text_color_of_channel_name_on_splash_screen">#fff</color>
+    <color name="side_menu_bg">#686055</color>
+    <!-- Video Description Page -->
+    <color name="video_descrption_top_bar_bg">#ED1C24</color>
+    <color name="video_descrption_top_bar_text">#fbebe7</color>
+    <color name="video_descrption_video_numbers_bar_color">#79746e</color>
+    <color name="video_descrption_video_numbers_bar_titles_color">#aba6a1</color>
+    <color name="video_descrption_video_numbers_bar_bg">#ffffff</color>
+
+</resources>

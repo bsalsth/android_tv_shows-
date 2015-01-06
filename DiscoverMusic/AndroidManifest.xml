@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.youtubeexpose"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light" >
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.SearchActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.HomeActivity"
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Sherlock.Light" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.SearchResult"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.PlaylistCategory"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.PlaylistVideos"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.CreatePlaylistEditBox"
+            android:configChanges="keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity
+            android:name="com.example.androidhive.OutboxActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.androidhive.ProfileActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.CategoryFragmentActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.VideosByPlaylistActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.mainacitivity.Lyrics"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.toolsforyoutube.youtbeplayer.PlayerViewDemoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="@string/minVersion"
+                android:value="8" />
+            <meta-data
+                android:name="@string/isLaunchableActivity"
+                android:value="true" />
+        </activity>
+    </application>
+
+</manifest>
